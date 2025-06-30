@@ -1,16 +1,35 @@
-# qr_menu_app
+# QR Menu App
 
-A new Flutter project.
+A Flutter application for QR code-based restaurant menu system.
+
+## Features
+
+- QR code scanning for restaurant menus
+- Menu display and item selection
+- Shopping cart functionality
+- Firebase integration
+- Multi-platform support (iOS, Android, Web)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is built with Flutter. To run this application:
 
-A few resources to get you started if this is your first Flutter project:
+1. Make sure you have Flutter installed on your system
+2. Clone this repository
+3. Run `flutter pub get` to install dependencies
+4. Run `flutter run` to start the application
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK
+- Firebase (Auth, Firestore)
+- Mobile Scanner for QR code functionality
+- Provider for state management
+
+## Project Structure
+
+- `lib/` - Main application code
+- `lib/models/` - Data models
+- `lib/screens/` - UI screens
+- `lib/services/` - Business logic and services
+- `lib/widgets/` - Reusable UI components
